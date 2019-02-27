@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grafiek animeren</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <style>
+    #wrapperG {
+      width: 600px;
+      height: 600px;
+      margin-left:   33%;
+      margin-right:  33%;
+
+    }
+
+        .img1 {
+    width:70px;
+    height:70px;
+    padding:0px;
+    margin-left:24px;
+
+
+        }
+
+    .img2 {
+      width:70px;
+      height:70px;
+      padding:0px;
+      margin-left:24px;
+
+    }
+
+
+    .img3 {
+      width:70px;
+      height:70px;
+      padding:0px;
+    margin-left:24px;
+
+    }
+
+
+    .img4 {
+      width:70px;
+      height:70px;
+      padding:0px;
+    margin-left:24px;
+
+    }
+
+
+    .img5 {
+      width:70px;
+      height:70px;
+      padding:0px;
+    margin-left:24px;
+
+    }
+
+    .img6 {
+      width:70px;
+      height:70px;
+      padding:0px;
+    margin-left:24px;
+
+
+    }
+
+
+    #afbeeldingen {
+
+
+    }
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <div id="wrapperG">
+<div id="afbeeldingen">
+    <img class="img1" src="icoontjes\1.png"  />
+    <img class="img2" src="icoontjes\2.png"  />
+    <img class="img3" src="icoontjes\3.png"  />
+    <img class="img4" src="icoontjes\4.png"  />
+    <img class="img5" src="icoontjes\5.png"  />
+    <img class="img6" src="icoontjes\6.png"  />
+
+  </div>
+
+
+
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 609 276"><defs><style>.cls-1{fill:#f4690b;}</style></defs><title>grafiek</title>
+      <g id="box" data-name="Layer 4">
+      <rect x="232.77" y="154.5" width="74.46" height="121"/><path d="M396.73,561V681H323.27V561h73.46m1-1H322.27V682h75.46V560Z"
+      transform="translate(-90 -406)"/></g>
+      <g id="box" data-name="Layer 5"><rect x="331.5" y="165.5" width="79" height="110"/>
+        <path d="M500,572V681H422V572h78m1-1H421V682h80V571Z" transform="translate(-90 -406)"/></g>
+        <g id="box" data-name="Layer 6">
+          <rect x="429.5" y="185.5" width="79" height="90"/><path d="M598,592v89H520V592h78m1-1H519v91h80V591Z" transform="translate(-90 -406)"/></g>
+          <g id="box" data-name="Layer 7">
+            <rect x="529.5" y="192.5" width="79" height="83"/><path d="M698,599v82H620V599h78m1-1H619v84h80V598Z" transform="translate(-90 -406)"/></g>
+            <g id="box" data-name="Layer 8">
+              <rect class="cls-1" x="0.5" y="0.5" width="84" height="275"/><path d="M174,407V681H91V407h83m1-1H90V682h85V406Z" transform="translate(-90 -406)"/></g>
+              <g id="box" data-name="Layer 9">
+              <rect class="cls-1" x="115.5" y="20.5" width="82" height="255" /><path d="M287,427V681H206V427h81m1-1H205V682h83V426Z" transform="translate(-90 -406)"/></g></svg>
+                <hr style="border:1px solid black; overflow:hidden;">
+
+  </div>
+                        <!--Javascript sectie-->
+      <script>
+
+
+function timeLineOne(){
+
+      var tl = new TimelineMax()
+      tl.from("#box",5, {y:200})
+      return tl;
+}
+
+timeLineOne();
+
+
+
+
+      </script>
+
+
+
+
+
+  </body>
+</html>
